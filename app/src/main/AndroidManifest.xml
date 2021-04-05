@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thien_000.test" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/heo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Cho_Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".Main2Activity" >
+        </activity>
+        <activity android:name=".ThuChiMainActivity" >
+        </activity>
+        <activity android:name=".ThongKeMainActivity" >
+        </activity>
+        <activity android:name=".ThietLapMainActivity" >
+        </activity>
+        <activity android:name=".ThemGDActivity" >
+        </activity>
+        <activity android:name=".ListGiaoDichMainActivity" >
+        </activity>
+        <activity android:name=".ThangMainActivity" >
+        </activity>
+        <activity android:name=".NamMainActivity" >
+        </activity>
+        <activity android:name=".GioiThieuMainActivity" >
+        </activity>
+    </application>
+
+</manifest>

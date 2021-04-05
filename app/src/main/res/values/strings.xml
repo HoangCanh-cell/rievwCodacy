@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Quản lý thu chi</string>
+    <string name="tab1">Đăng nhập</string>
+    <string name="tab2">Đăng ký</string>
+    <string name="tab3">tab3</string>
+</resources>

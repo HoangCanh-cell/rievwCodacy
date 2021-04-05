@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:background="@drawable/bo_listview_xanh"
+       >
+        <TableLayout
+            android:id="@+id/tbl"
+            android:padding="8sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_marginBottom="3sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bo_listview"
+
+                >
+                <ImageView
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="0"
+                    android:src="@drawable/cash"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:textColor="#CC0000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tiền Mặt"
+                    android:gravity="left"
+                    android:paddingTop="13sp"
+                    android:layout_marginLeft="20sp"
+                    android:layout_weight="0.2"
+                    />
+                <TextView
+                    android:textColor="#CC0000"
+                    android:id="@+id/TvTienMat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="7.000000"
+                    android:gravity="right"
+                    />
+
+            </TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="#BBBBBB"
+                />
+            <TableRow
+                android:layout_marginTop="3sp"
+                android:layout_marginBottom="3sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+                <ImageView
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="0"
+                    android:src="@drawable/save"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tiền Tiết Kiệm"
+                    android:gravity="left"
+                    android:layout_marginLeft="20sp"
+                    android:textColor="#CC0000"
+                    android:paddingTop="13sp"
+                    android:layout_weight="0.2"
+                    />
+                <TextView
+                    android:id="@+id/TvTietKiem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="8.000000"
+                    android:textColor="#CC0000"
+                    android:gravity="right"
+                    />
+
+            </TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="#BBBBBB"
+                />
+            <TableRow
+                android:layout_marginTop="3sp"
+                android:layout_marginBottom="3sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+                <ImageView
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="0"
+                    android:src="@drawable/card"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thẻ Tín Dụng"
+                    android:gravity="left"
+                    android:textColor="#CC0000"
+                    android:layout_marginLeft="20sp"
+                    android:paddingTop="13sp"
+                    android:layout_weight="0.2"
+                    />
+                <TextView
+                    android:id="@+id/TvTinDung"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="0"
+                    android:textColor="#CC0000"
+                    android:gravity="right"
+                    />
+
+            </TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="#BBBBBB"
+                />
+            <TableRow
+                android:layout_marginTop="3sp"
+                android:layout_marginBottom="3sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+                <ImageView
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="0"
+                    android:src="@drawable/wallet"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Số Dư"
+                    android:textColor="#CC0000"
+                    android:gravity="left"
+                    android:layout_marginLeft="20sp"
+                    android:paddingTop="13sp"
+                    android:layout_weight="0.2"
+                    />
+                <TextView
+                    android:id="@+id/tvSoDu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="0"
+                    android:textColor="#222222"
+
+                    android:gravity="right"
+                    />
+
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10sp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4sp">
+
+                <Button
+                    android:id="@+id/btnadd"
+                    android:layout_width="match_parent"
+                    android:layout_height="80sp"
+                    android:layout_weight="2"
+                    android:padding="6sp"
+                    android:textColor="#222222"
+                    android:background="@drawable/button"
+                    android:text="Thêm GD" />
+
+                <Button
+                    android:id="@+id/btnthang"
+                    android:layout_width="match_parent"
+                    android:layout_height="80sp"
+                    android:layout_weight="2"
+                    android:padding="6sp"
+                    android:background="@drawable/button"
+                    android:text="Tháng" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="5sp"
+            android:orientation="horizontal"
+            android:padding="4sp">
+
+            <Button
+                android:id="@+id/btnnam"
+                android:layout_width="match_parent"
+                android:layout_height="80sp"
+                android:layout_weight="2"
+                android:background="@drawable/button"
+                android:padding="6sp"
+                android:text="Năm" />
+
+            <Button
+                android:id="@+id/btngt"
+                android:layout_width="match_parent"
+                android:layout_height="80sp"
+                android:background="@drawable/button"
+                android:layout_weight="2"
+                android:padding="6sp"
+                android:text="Giới Thiệu" />
+        </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal"
+                android:padding="4sp">
+
+                <Button
+                    android:id="@+id/btnlichsu"
+                    android:layout_width="match_parent"
+                    android:layout_height="80sp"
+                    android:background="@drawable/button"
+                    android:padding="6sp"
+                    android:text="Lịch sử giao dịch" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical" >
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="130sp"
+        android:layout_gravity="center"
+        android:src="@drawable/dangnhap"
+        />
+    <EditText
+        android:layout_marginTop="20sp"
+        android:id="@+id/edtusername"
+        android:hint="Tên đăng nhập"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColor="@android:color/background_dark"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:inputType="textPassword"
+        android:hint="Mật khẩu"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtpassword"
+
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60sp"
+        android:id="@+id/btndn"
+        android:text="Đăng Nhập"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+
+</LinearLayout>

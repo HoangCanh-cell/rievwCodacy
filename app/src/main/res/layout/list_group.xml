@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#00CC99"
+    android:padding="8dp" >
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/listCha"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#003399"
+        android:textSize="17dp" />
+
+</RelativeLayout>
